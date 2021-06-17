@@ -1,0 +1,13 @@
+diff --git "a/CMakeLists.txt" "b/CMakeLists.txt"
+index 5fdcd7c..32b4fc7 100644
+--- "a/CMakeLists.txt"
++++ "b/CMakeLists.txt"
+@@ -78,7 +78,7 @@ ENDIF (APPLE)
+ 
+ IF (MSVC)
+   set(CMAKE_C_FLAGS_RELEASE "/GL")
+-  add_definitions(-D_CRT_SECURE_NO_DEPRECATE -MT)
++  add_definitions(-D_CRT_SECURE_NO_DEPRECATE)
+ ENDIF (MSVC)
+ 
+ # configure file groups
